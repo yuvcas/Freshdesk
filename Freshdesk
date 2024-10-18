@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freshworks Widget Example</title>
+</head>
+<body>
+
+  <!-- Your content goes here -->
+
+  <!-- Freshworks Widget Embed Code -->
+  <script>
+    window.fwSettings={
+      'widget_id':157000000183
+    };
+    !function(){
+      if("function"!=typeof window.FreshworksWidget){
+        var n=function(){n.q.push(arguments)};
+        n.q=[],window.FreshworksWidget=n
+      }
+    }()
+  </script>
+  <script src='https://widget.freshworks.com/widgets/157000000183.js' async defer></script>
+
+</body>
+</html>
